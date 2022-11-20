@@ -62,10 +62,10 @@
 	</head>
 	<body class="h-screen">
 		<main
-			class="flex items-center justify-center h-screen max-w-4xl mx-auto text-white text-sm"
+			class="flex flex-col sm:flex-row items-center justify-center sm:h-screen sm:max-w-4xl mx-auto m-5 text-white text-sm"
 		>
 			<section
-				class="bg-BrightOrange rounded-l-2xl px-10 py-12 h-2/3 flex flex-col justify-between"
+				class="bg-BrightOrange rounded-t-2xl sm:rounded-t-none mt-8 ml-5 mr-5 sm:m-0 sm:rounded-l-2xl px-10 py-12 h-1/2 sm:h-2/3 flex flex-col justify-between"
 			>
 				<svg
 					width="64"
@@ -90,19 +90,21 @@
 						/>
 					</g>
 				</svg>
-				<h1 class="font-Big-Shoulders text-5xl uppercase">Sedans</h1>
-				<p class="font-Lexend">
+				<h1 class="font-Big-Shoulders text-5xl uppercase mt-8 sm:m-0">Sedans</h1>
+				<p class="font-Lexend mt-8 sm:m-0">
 					Choose a sedan for its affordability and excellent fuel economy. Ideal for
 					cruising in the city or on your next road trip.
 				</p>
 				<button
-					class="bg-white text-BrightOrange py-2 px-5 w-3/5 rounded-full hover:bg-transparent hover:text-white border hover:border-white mb-4"
+					class="bg-white text-BrightOrange py-2 px-5 w-3/5 rounded-full hover:bg-transparent hover:text-white border hover:border-white mb-4 mt-8 sm:m-0"
 				>
 					Learn More
 				</button>
 			</section>
 
-			<section class="bg-DarkCyan px-10 py-12 h-2/3 flex flex-col justify-between">
+			<section
+				class="bg-DarkCyan px-10 py-12 h-2/3 flex flex-col justify-between ml-5 mr-5 sm:m-0"
+			>
 				<svg
 					width="64"
 					height="40"
@@ -126,20 +128,20 @@
 						/>
 					</g>
 				</svg>
-				<h1 class="font-Big-Shoulders text-5xl uppercase">SUVs</h1>
-				<p class="font-Lexend">
+				<h1 class="font-Big-Shoulders text-5xl uppercase mt-8 sm:m-0">SUVs</h1>
+				<p class="font-Lexend mt-8 sm:m-0">
 					Take an SUV for its spacious interior, power, and versatility. Perfect for
 					your next family vacation and off-road adventures.
 				</p>
 				<button
-					class="bg-white text-DarkCyan py-2 px-5 w-3/5 rounded-full hover:bg-transparent hover:text-white border hover:border-white mb-4"
+					class="bg-white text-DarkCyan py-2 px-5 w-3/5 rounded-full hover:bg-transparent hover:text-white border hover:border-white mb-4 mt-8 sm:m-0"
 				>
 					Learn More
 				</button>
 			</section>
 
 			<section
-				class="bg-VeryDarkCyan rounded-r-2xl px-10 py-12 h-2/3 flex flex-col justify-between"
+				class="bg-VeryDarkCyan rounded-b-2xl sm:rounded-b-none sm:rounded-r-2xl px-10 py-12 h-2/3 flex flex-col justify-between mb-5 ml-5 mr-5 sm:m-0"
 			>
 				<svg
 					width="64"
@@ -164,20 +166,20 @@
 						/>
 					</g>
 				</svg>
-				<h1 class="font-Big-Shoulders text-5xl uppercase">Luxury</h1>
-				<p class="font-Lexend">
+				<h1 class="font-Big-Shoulders text-5xl uppercase mt-8 sm:m-0">Luxury</h1>
+				<p class="font-Lexend mt-8 sm:m-0">
 					Cruise in the best car brands without the bloated prices. Enjoy the
 					enhanced comfort of a luxury rental and arrive in style.
 				</p>
 				<button
-					class="bg-white text-VeryDarkCyan py-2 px-5 w-3/5 rounded-full hover:bg-transparent hover:text-white border hover:border-white mb-4"
+					class="bg-white text-VeryDarkCyan py-2 px-5 w-3/5 rounded-full hover:bg-transparent hover:text-white border hover:border-white mb-4 mt-8 sm:m-0"
 				>
 					Learn More
 				</button>
 			</section>
 		</main>
 
-		<div class="attribution fixed bottom-0 justify-center">
+		<div class="attribution sm:fixed sm:bottom-0">
 			Challenge by
 			<a
 				href="https://www.frontendmentor.io?ref=challenge"
